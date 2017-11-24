@@ -13,5 +13,6 @@ public class TestInput {
         System.out.println("What is your name? :");
         String name = reader.readLine();
         System.out.println("Your name is " +name);
+        System.out.println("Your name is " +name);
    }
 }//class

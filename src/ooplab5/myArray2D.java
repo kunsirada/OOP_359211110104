@@ -19,7 +19,7 @@ public class myArray2D {
                 System.out.print(number[i][j]);
         }
     }
-    }
+
 
     private static int [] [] InputData(int[][] number) throws IOException {
         BufferedReader reader = new BufferedReader(

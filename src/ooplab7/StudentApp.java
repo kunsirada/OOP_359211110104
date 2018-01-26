@@ -29,6 +29,9 @@ public class StudentApp {
         System.out.println(s2.group);
         System.out.println(Student.age);
         Student.age = 20;
+        s2.age = 30;
+        System.out.println(Student.age);
+        System.out.println(s2.age);
 
     }//main
 

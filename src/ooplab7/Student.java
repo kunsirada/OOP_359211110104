@@ -7,15 +7,20 @@ package ooplab7;
 
 public class Student {
     //properties of student class
+    public static int age;
+    public String group;
     private String id;
     private String name;
     private String pid;
     private String address;
+
     //Constructor
     //default constructor
-    public Student () {}
+    public Student() {
+    }
+
     //create by own//
-    public Student (String id, String n,String pid, String a){
+    public Student(String id, String n, String pid, String a) {
         //assing data to class properties// //
         this.id = id;
         this.name = name;
@@ -34,9 +39,10 @@ public class Student {
     }
 
     //getter and setter methods
-    public String getId () {
+    public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
